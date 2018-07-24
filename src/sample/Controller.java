@@ -48,9 +48,9 @@ public class Controller {
                 }
             }
         }
-        for (int s : array) {
-            System.out.print(s + ", ");
-            sortedList.getItems().add(s);
+        for (int item : array) {
+            System.out.print(item + ", ");
+            sortedList.getItems().add(item);
         }
     }
 }
