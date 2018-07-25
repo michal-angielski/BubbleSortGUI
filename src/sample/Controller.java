@@ -1,10 +1,9 @@
 package sample;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
+import javafx.scene.control.Alert;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
-import javafx.scene.layout.TilePane;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -52,5 +51,12 @@ public class Controller {
             System.out.print(item + ", ");
             sortedList.getItems().add(item);
         }
+
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Information Dialog");
+        alert.setHeaderText(null);
+        alert.setContentText("Numbers generated and sorted!");
+
+        alert.showAndWait();
     }
 }

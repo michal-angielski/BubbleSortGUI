@@ -23,7 +23,7 @@
                            <VBox.margin>
                               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                            </VBox.margin></Label>
-                        <TextField fx:id="generateNum" VBox.vgrow="ALWAYS">
+                        <TextField fx:id="generateNum" promptText="Enter your number..." VBox.vgrow="ALWAYS">
                            <VBox.margin>
                               <Insets bottom="5.0" left="5.0" right="5.0" />
                            </VBox.margin></TextField>
@@ -35,7 +35,7 @@
                            <VBox.margin>
                               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                            </VBox.margin></Label>
-                        <TextField fx:id="range" VBox.vgrow="ALWAYS">
+                        <TextField fx:id="range" promptText="Enter your number..." VBox.vgrow="ALWAYS">
                            <VBox.margin>
                               <Insets bottom="5.0" left="5.0" right="5.0" />
                            </VBox.margin></TextField>
